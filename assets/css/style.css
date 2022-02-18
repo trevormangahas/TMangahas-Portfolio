@@ -6,6 +6,8 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
     color: #33496b;
+
+    /* Start Header */
 }
 header {
     background-color: #363c47;
@@ -58,4 +60,33 @@ header nav ul li a:hover {
     color: #363c47;
     border-radius: 15px;
     
+}
+section {
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20x;
+    margin: 0 auto 25px auto;
+    width: 100%;
+}
+
+/* Start Contact Me Section */
+.contact {
+    margin: 0 auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+}
+.contcat-info {
+    margin: 20px;
+    color: ;
+    align-content: center;
+    flex: 1;
+    display: inline-block;
+    width: auto;
+    
+    
+}
+.contact-info a {
+    color: ;
 }
