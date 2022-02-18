@@ -28,6 +28,8 @@ header h1 {
     font-size: 40px;
     font-weight: bold;
     padding: 10px 10px 10px 50px;
+    border-radius: 0 15px 15px 0;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
 }
 header a {
     color: #89edfa;
@@ -59,7 +61,7 @@ header nav ul li a:hover {
     background-color: #89edfa;
     color: #363c47;
     border-radius: 15px;
-    
+
 }
 section {
     padding: 60px;
@@ -102,6 +104,7 @@ section {
     background-color: #89edfa;
     padding: 10px;
     border-radius: 15px;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
 
 
