@@ -69,24 +69,78 @@ section {
     margin: 0 auto 25px auto;
     width: 100%;
 }
+.section-title {
+    font-size: 2.8vw;
+    text-align: right;
+}
+
+/* Start Hero Section */
+.hero {
+    background-image: url("../images/hero-portfolio.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 60%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    max-width: 100%;
+    height: auto;
+}
+.hero-header {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: ;
+    font-size: 18px;
+    line-height: 1.2;
+    padding: 60px 10px 10px 60px;
+}
+.hero-header h2 {
+    font-style: italic;
+    font-size: 60px;
+    background-color: #89edfa;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+/* Start About Me Section */
+
 
 /* Start Contact Me Section */
 .contact {
     margin: 0 auto;
-    justify-content: space-around;
-    flex-wrap: wrap;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
-.contcat-info {
+.contact-info {
     margin: 20px;
-    color: ;
-    align-content: center;
+    color: #33496b;
     flex: 1;
-    display: inline-block;
-    width: auto;
-    
-    
+    align-content: center;
 }
 .contact-info a {
-    color: ;
+    color:#33496b;
+}
+
+/* Flex Boxes */
+.flex-caption {
+    display: flex;
+    justify-content: flex-end;
+    border-right: 5px solid #33496b;
+    width: 15%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 0 20px 0 0;
+}
+.flex-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 85%;
+    height: 100%;
+    padding: 0 30px;
 }
