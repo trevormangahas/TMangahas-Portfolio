@@ -13,19 +13,24 @@ header {
     justify-content: space-between;
     padding: 20px 35px 20px 0;
     top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 9999;
 }
 header h1 {
     background-color: #89edfa;
     color: #363c47;
     display: inline-block;
     margin: 0;
-    font-size: 35px;
+    align-content: flex-start;
+    font-size: 40px;
     font-weight: bold;
+    padding: 10px 10px 10px 50px;
 }
 header a {
     color: #89edfa;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
 }
 header nav {
     margin: 7px 0;
@@ -39,12 +44,18 @@ header nav ul {
 }
 header nav ul li {
     margin-left: 5px;
-    border-bottom: 4px solid #89edfa;
     display: inline-block;
     width: auto;
     text-align: center;
+    padding: 10px 20px;
 }
 header nav ul li a {
     padding: 10px 25px;
     font-weight: lighter;
+}
+header nav ul li a:hover {
+    background-color: #89edfa;
+    color: #363c47;
+    border-radius: 15px;
+    
 }
