@@ -122,7 +122,7 @@ section {
 /* Start Main Example App */
 .main-example {
     width: 75.65vw;
-    opacity: 0.5;
+    opacity: 0.65;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color: black;
@@ -148,7 +148,7 @@ section {
 
 .img-title {
     width: 28.65vw;
-    opacity: 0.5;
+    opacity: 0.65;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color: black;
@@ -211,3 +211,7 @@ section {
     height: 100%;
     padding: 0 30px;
 }
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    
