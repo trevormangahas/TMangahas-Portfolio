@@ -118,7 +118,28 @@ section {
     padding: 30px;
     width: 50%;
 }
-
+/* needs work potential large image */
+.img-title-first {
+    width: 75.65vw;
+    opacity: 0.5;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: black;
+    align-content: center;
+}
+.img-title-first img {
+    width: 75.65vw;
+    height: 14.65vw;
+}
+.first a {
+    text-decoration: none;
+    font font-weight: 100;
+}
+.first-link {
+    padding: 30px;
+    width: 50%;
+}
+/* split */
 .img-title {
     width: 28.65vw;
     opacity: 0.5;
@@ -134,7 +155,7 @@ section {
 
 .img-title img {
     width: 28.65vw;
-    height: 28.65vw;
+    height: 14.65vw;
 }
 
 .img-title h3 {
