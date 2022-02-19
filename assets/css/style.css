@@ -93,7 +93,6 @@ section {
     width: 35%;
     text-align: right;
     margin: 3.5%;
-    color: ;
     font-size: 18px;
     line-height: 1.2;
     padding: 60px 10px 10px 60px;
@@ -215,3 +214,4 @@ section {
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
     
+}
