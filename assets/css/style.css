@@ -186,9 +186,13 @@ section {
     color: #33496b;
     flex: 1;
     align-content: center;
+    text-decoration: none;
+    font-size: 30px;
 }
 .contact-info a {
     color:#33496b;
+    text-decoration: underline;
+    padding: 0 92px 0 12px;
 }
 
 /* Flex Boxes */
@@ -213,5 +217,5 @@ section {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-    
+
 }
