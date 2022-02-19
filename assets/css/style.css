@@ -118,8 +118,9 @@ section {
     padding: 30px;
     width: 50%;
 }
-/* needs work potential large image */
-.img-title-first {
+
+/* Start Main Example App */
+.main-example {
     width: 75.65vw;
     opacity: 0.5;
     background-color: white;
@@ -127,19 +128,24 @@ section {
     color: black;
     align-content: center;
 }
-.img-title-first img {
+.main-example img {
     width: 75.65vw;
-    height: 14.65vw;
+    height: 25.65vw;
 }
-.first a {
-    text-decoration: none;
-    font font-weight: 100;
+.main-example:hover, .main-example:active {
+    opacity: 1;
 }
-.first-link {
-    padding: 30px;
-    width: 50%;
+.main-example h3 {
+    text-align: center; 
+    padding: 10px 20px;
+    opacity: 1;
+  }
+.main-example p {
+    text-align: center;
+    padding-bottom: 8px;
 }
-/* split */
+/* End Main Example App */
+
 .img-title {
     width: 28.65vw;
     opacity: 0.5;
